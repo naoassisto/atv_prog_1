@@ -1,5 +1,8 @@
 # atv_prog_1
 
+## Explicação do cod 
+
+
 `BankAccountTest.cs`.
 
 ### Classe `BankAccount` - Exemplos do Código
@@ -73,5 +76,57 @@ public void Debit_WithValidAmount_UpdatesBalance()
 ```
 
 Esta estrutura abrange a inicialização de uma instância da `BankAccount` com um saldo inicial, a execução de uma operação de débito, e a verificação para assegurar que o saldo final seja o esperado após o débito.
+
+## Mudanças no codigo
+
+## Classe `BankAccount`
+
+### Método `Debit`
+
+O método `Debit` original contém um erro intencional para demonstrar a importância dos testes de unidade.
+
+**Original:**
+```csharp
+public void Debit(double amount)
+{
+    if (amount > m_balance)
+    {
+        throw new ArgumentOutOfRangeException("amount");
+    }
+
+    if (amount < 0)
+    {
+        throw new ArgumentOutOfRangeException("amount");
+    }
+
+    m_balance += amount; // intentionally incorrect code
+}
+```
+
+<a href="https://imgur.com/JtCrN7y"><img src="https://i.imgur.com/JtCrN7y.png" title="source: imgur.com" /></a>
+
+**Modificado:**
+```csharp
+public void Debit(double amount)
+{
+    if (amount > m_balance)
+    {
+        throw new ArgumentOutOfRangeException("amount");
+    }
+
+    if (amount < 0)
+    {
+        throw new ArgumentOutOfRangeException("amount");
+    }
+
+    m_balance -= amount; // Correção: o saldo é agora decrementado corretamente
+}
+```
+
+
+<a href="https://imgur.com/histFvA"><img src="https://i.imgur.com/histFvA.png" title="source: imgur.com" /></a>
+
+A mudança principal é a correção na lógica do método `Debit`, onde o saldo da conta é decrementado pelo valor do débito, refletindo a operação de débito corretamente.
+
 
 
