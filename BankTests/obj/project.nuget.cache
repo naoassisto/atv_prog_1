@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "MmKDheFmRgwmHn2URzCe9zub377a+Q+ObtSS/NhhMl41iQfTZ9srT+lqs8UY0fn68yPr7TslKGizFX62YF9uPg==",
+  "success": true,
+  "projectFilePath": "/Users/stefanotinelli/Documents/Faculdade/Modulo 9/atv_prog_1/atv_prog_1/BankTests/BankTests.csproj",
+  "expectedPackageFiles": [
+    "/Users/stefanotinelli/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/microsoft.testplatform.testhost/17.8.0/microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/mstest.testadapter/3.1.1/mstest.testadapter.3.1.1.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/mstest.testframework/3.1.1/mstest.testframework.3.1.1.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/stefanotinelli/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

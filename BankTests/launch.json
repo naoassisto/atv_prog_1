@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": ".NET Core Test",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "/Users/stefanotinelli/Documents/Faculdade/Modulo 9/atv_prog_1/atv_prog_1/BankTests/BankAccountTest.cs",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "console": "internalConsole",
+        "internalConsoleOptions": "openOnSessionStart",
+        "disableOptimisticConcurrency": true,
+        "justMyCode": false
+      }
+    ]
+  }
+  
